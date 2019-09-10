@@ -1,0 +1,20 @@
+.terminal {
+	color:white;
+	//color:#00c500;
+	font-family: "Pixelade";
+	font-size:2rem;
+	height:100%;
+}
+
+.hover:hover{
+	color:black;
+	padding-left:10px;
+	background:white;
+	//color:black;
+	border-radius:.1rem;
+}
+
+.hover:hover:before{
+	content: '>$ ';
+}
+

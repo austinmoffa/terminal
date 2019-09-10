@@ -1,0 +1,5 @@
+<div class='container-fluid terminal'>
+	<div *ngFor='let text of texts; let i = index' class='hover'>
+		<app-typewriter *ngIf="i == 0 || texts[i-1].done" [text]='text'></app-typewriter>
+	</div>
+</div>
